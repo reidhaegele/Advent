@@ -1,27 +1,27 @@
 f = open("input.txt", "r")
-max = 0;
-second_max = 0;
-third_max = 0;
-sum = 0;
+max = 0
+second_max = 0
+third_max = 0
+sum = 0
 for x in f:
-  if(x=="\n"):
-    if(sum > max):
-      if (max>second_max):
-        if(second_max > third_max):
-          third_max=second_max;
-        second_max=max;
-      max=sum;
+    if (x == "\n"):
+        if (sum > max):
+            if (max > second_max):
+                if (second_max > third_max):
+                    third_max = second_max
+                second_max = max
+            max = sum
+        else:
+            if (sum > second_max):
+                if (max > second_max):
+                    third_max = second_max
+                second_max = sum
+            else:
+                if (sum > third_max):
+                    third_max = sum
+        sum = 0
     else:
-      if(sum > second_max):
-        if (max>second_max):
-          third_max=second_max;
-        second_max = sum;
-      else:
-        if(sum > third_max):
-          third_max = sum;
-    sum = 0;
-  else:
-    sum += int(x);
+        sum += int(x)
 f.close()
 total = max+second_max+third_max
 print(total)
