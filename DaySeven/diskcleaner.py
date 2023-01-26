@@ -1,6 +1,6 @@
 
-if __name__ == "__main__":
-    f = open("inputDay6.txt", "r")
+if __name__ == '__main__':
+    f = open("DaySeven\inputDay7.txt", "r")
     for x in f:
         print("result")
     print("result")

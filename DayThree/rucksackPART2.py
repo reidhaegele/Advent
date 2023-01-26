@@ -1,4 +1,4 @@
-f = open("inputDay3.txt", "r")
+f = open("DayThree\inputDay3.txt.txt", "r")
 sum = 0
 num = 0
 s1 = ""

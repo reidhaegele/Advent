@@ -1,4 +1,4 @@
-f = open("inputDay6.txt", "r")
+f = open("DaySix\inputDay6.txt", "r")
 fourLetters = []
 success = False
 result = 0

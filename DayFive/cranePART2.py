@@ -1,4 +1,4 @@
-f = open("inputDay5.txt", "r")
+f = open("DayFive\inputDay5.txt", "r")
 one = ['Q', 'F', 'M', 'R', 'L', 'W', 'C', 'V']
 two = ['D', 'Q', 'L']
 three = ['P', 'S', 'R', 'G', 'W', 'C', 'N', 'B']

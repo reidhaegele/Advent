@@ -1,4 +1,4 @@
-f = open("inputDay3.txt", "r")
+f = open("DayThree\inputDay3.txt", "r")
 sum = 0
 for x in f:
     success = False

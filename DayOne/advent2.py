@@ -1,4 +1,4 @@
-f = open("input.txt", "r")
+f = open("DayOne\input.txt", "r")
 max = 0
 second_max = 0
 third_max = 0

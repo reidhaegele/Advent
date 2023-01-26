@@ -1,4 +1,4 @@
-f = open("input.txt", "r")
+f = open("DayOne\input.txt", "r")
 max = 0
 sum = 0
 for x in f:
